@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="titleTextSize">30sp</dimen>
+    <dimen name="navBarTextSize">20sp</dimen>
+    <dimen name ="textSize">30dp</dimen>
+    <dimen name="thirty">30sp</dimen>
+    <dimen name="ten">20sp</dimen>
+    <dimen name="topMargin">250dp</dimen>
+    <dimen name="topMarginImage">25dp</dimen>
+    <dimen name="imageWidth">200dp</dimen>
+    <dimen name="imageHeight">200dp</dimen>
+    <dimen name="topMarginOfDescription">325dp</dimen>
+    <dimen name="marginTextView">200dp</dimen>
+    <dimen name="verticalDimen">100dp</dimen>
+    <dimen name="backButtonMargin">150</dimen>
+    <dimen name="submissionText">25sp</dimen>
+    <dimen name="md_keylines">20dp</dimen>
+    <item name="horizontalButton" type="dimen" format="float">0.50</item>
+    <item name="verticalButton" type="dimen" format="float">0.95</item>
+    <item name="titleVertical" type="dimen" format="float">0.05</item>
+    <item name="appNameVertical" type="dimen" format="float">0.156</item>
+    <item name="nameVertical" type="dimen" format="float">0.244</item>
+    <item name="emailVertical" type="dimen" format="float">0.333</item>
+    <item name="ageVertical" type="dimen" format="float">0.437</item>
+    <item name="descriptionVertical" type="dimen" format="float">0.53</item>
+    <item name="occupationVertical" type="dimen" format="float">0.629</item>
+    <item name="dateOfBirthVertical" type="dimen" format="float">0.731</item>
+    <item name="buttonHorizontal" type="dimen" format="float">0.498</item>
+    <item name="buttonVertical" type="dimen" format="float">0.945</item>
+</resources>

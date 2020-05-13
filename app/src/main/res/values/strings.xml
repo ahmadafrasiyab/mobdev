@@ -1,3 +1,17 @@
 <resources>
-    <string name="app_name">mobdev</string>
+    <string name="app_name"></string>
+    <string name="submit">Submit</string>
+    <string name="textView">TextView</string>
+    <string name="signupapp">DatingApp!</string>
+    <string name="enter_name">Enter your name</string>
+    <string name="enter_email">Enter your email</string>
+    <string name="enter_age">Enter your age</string>
+    <string name="enter_description">Something about you</string>
+    <string name="enter_occupation">Enter your occupation</string>
+    <string name="credentials">credentials</string>
+    <string name="enter_dob">enter your date of birth</string>
+    <string name="welcomeToDating">Welcome to Online Dating</string>
+    <string name="displayMessage">Profile created successfully!</string>
+    <string name="go_back">Go Back</string>
 </resources>
+
