@@ -15,6 +15,11 @@
     <dimen name="backButtonMargin">150</dimen>
     <dimen name="submissionText">25sp</dimen>
     <dimen name="md_keylines">20dp</dimen>
+    <dimen name="trial_value">50dp</dimen>
+    <dimen name="email_padding">25dp</dimen>
+    <dimen name="description_padding">25dp</dimen>
+    <dimen name="occupation_padding">25dp</dimen>
+    <dimen name="date_of_birth_padding">25dp</dimen>
     <item name="horizontalButton" type="dimen" format="float">0.50</item>
     <item name="verticalButton" type="dimen" format="float">0.95</item>
     <item name="titleVertical" type="dimen" format="float">0.05</item>

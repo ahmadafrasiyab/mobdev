@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Main2Activity">
+    tools:context=".Main3Activity">
 
     <ImageView
         android:layout_width="@dimen/imageWidth"
@@ -58,7 +58,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="@dimen/ten"
-            android:padding="25dp"
+            android:padding="@dimen/email_padding"
             android:gravity="left|start"
             android:layout_weight="0.25"
             />
@@ -69,7 +69,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="left|start"
-            android:padding="25dp"
+            android:padding="@dimen/description_padding"
             android:textSize="@dimen/ten"
             android:layout_weight="1"/>
 
@@ -80,7 +80,7 @@
             android:layout_height="wrap_content"
             android:textSize="@dimen/ten"
             android:gravity="left|start"
-            android:padding="25dp"
+            android:padding="@dimen/occupation_padding"
             android:layout_weight="1.25
 "    />
 
@@ -90,7 +90,7 @@
             android:layout_height="wrap_content"
             android:textSize="@dimen/ten"
             android:gravity="left|start"
-            android:padding="25dp"
+            android:padding="@dimen/date_of_birth_padding"
             android:layout_weight="1.25"
             />
 
