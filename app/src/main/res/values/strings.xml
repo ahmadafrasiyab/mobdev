@@ -13,5 +13,7 @@
     <string name="welcomeToDating">Welcome to Online Dating</string>
     <string name="displayMessage">Profile created successfully!</string>
     <string name="go_back">Go Back</string>
+    <string name="item_title">Title</string>
+    <string name="item_desc">my description</string>
 </resources>
 
