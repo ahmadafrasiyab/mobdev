@@ -25,8 +25,8 @@
 
     </array>
     <array name="places_picture">
-        <item>@drawable/cat</item>
         <item>@drawable/bike</item>
+        <item>@drawable/cat</item>
 
     </array>
 </resources>

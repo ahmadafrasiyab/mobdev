@@ -23,7 +23,7 @@
     <dimen name="card_image_height">50dp</dimen>
     <dimen name="card_height">20dp</dimen>
     <dimen name="card_title_height">30dp</dimen>
-    <dimen name="article_subheading">30sp</dimen>
+    <dimen name="article_subheading">15sp</dimen>
     <dimen name="cards_button_width">30dp</dimen>
     <dimen name="cards_button_height">30dp</dimen>
     <item name="horizontalButton" type="dimen" format="float">0.50</item>
