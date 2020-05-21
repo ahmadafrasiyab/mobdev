@@ -46,7 +46,7 @@ import androidx.recyclerview.widget.RecyclerView;
          * Adapter to display recycler view.
          */
         public static class ContentAdapter extends RecyclerView.Adapter<ViewHolder> {
-        // Set numbers of List in RecyclerView.
+        // Set numbers of List in RecsyclerView.
         private static final int LENGTH = 2;
         private final String[] mPlaces;
         private final String[] mPlaceDesc;
