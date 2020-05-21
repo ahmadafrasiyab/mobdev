@@ -31,6 +31,8 @@ import androidx.recyclerview.widget.RecyclerView;
         return recyclerView;
         }
 
+
+
         public static class ViewHolder extends RecyclerView.ViewHolder {
         public ImageView picture;
         public TextView name;

@@ -1,7 +1,7 @@
 <resources>
     <string-array name="places">
-        <item>This is my bike</item>
-        <item>And here is my cat</item>
+        <item>My bike</item>
+        <item>My cat</item>
 
     </string-array>
     <string-array name="place_desc">
