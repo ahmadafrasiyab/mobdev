@@ -26,6 +26,13 @@
     <dimen name="article_subheading">15sp</dimen>
     <dimen name="cards_button_width">30dp</dimen>
     <dimen name="cards_button_height">30dp</dimen>
+    <dimen name="card_title_margin_start">0dp</dimen>
+    <dimen name="card_title_margin_left">0dp</dimen>
+    <dimen name="card_title_margin_end">0dp</dimen>
+    <dimen name="card_title_margin_bottom">-44dp</dimen>
+    <dimen name="card_text_margin_top">53dp</dimen>
+    <dimen name="textViewName_padding">25dp</dimen>
+    <dimen name="textViewAge_padding">25dp</dimen>
     <item name="horizontalButton" type="dimen" format="float">0.50</item>
     <item name="verticalButton" type="dimen" format="float">0.95</item>
     <item name="titleVertical" type="dimen" format="float">0.05</item>

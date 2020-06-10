@@ -15,5 +15,6 @@
     <string name="go_back">Go Back</string>
     <string name="item_title">Title</string>
     <string name="item_desc">my description</string>
+    <string name="appbar_scrolling_view_behavior">\"\"</string>
 </resources>
 

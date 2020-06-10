@@ -59,10 +59,10 @@ public class Main3Activity<viewPager> extends AppCompatActivity {
             viewPager.setAdapter(adapter);
         }
 
-    public void displayToast(View view) {
-        Toast.makeText(this, "You Liked this", Toast.LENGTH_LONG).show();
-        return;
-    }
+//    public void displayToast(View view) {
+//        Toast.makeText(this, "You Liked" + MatchesFragment.ViewHolder.class.getName(), Toast.LENGTH_LONG).show();
+//        return;
+//    }
 
     static class Adapter extends FragmentPagerAdapter {
             private final List<Fragment> mFragmentList = new ArrayList<>();
