@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name"></string>
+    <string name="DatingApp"></string>
     <string name="submit">Submit</string>
     <string name="textView">TextView</string>
     <string name="signupapp">DatingApp!</string>
@@ -16,5 +16,6 @@
     <string name="item_title">Title</string>
     <string name="item_desc">my description</string>
     <string name="appbar_scrolling_view_behavior">\"\"</string>
+    <string name="app_name">Dating App</string>
 </resources>
 

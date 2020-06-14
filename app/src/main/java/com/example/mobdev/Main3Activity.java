@@ -3,6 +3,7 @@ package com.example.mobdev;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.view.Window;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -50,12 +51,14 @@ public class Main3Activity<viewPager> extends AppCompatActivity {
         private void setupViewPager (ViewPager viewPager){
             Adapter adapter = new Adapter(getSupportFragmentManager());
             ProfileFragment profile = new ProfileFragment();
+            SettingsFragment settings = new SettingsFragment();
             adapter.addFragment(profile, "Profile");
             Intent intent = getIntent();
             Bundle b = intent.getExtras();
             profile.setArguments(b);
+            settings.setArguments(b);
             adapter.addFragment(new MatchesFragment(), "Matches");
-            adapter.addFragment(new SettingsFragment(), "Settings");
+            adapter.addFragment(settings, "Settings");
             viewPager.setAdapter(adapter);
         }
 

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <TextView
+        android:id="@+id/emptyView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/testValue"
+    />
+    <TextView
+        android:id="@+id/settingsIdView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/thirty"
+        app:layout_constraintTop_toBottomOf="@+id/emptyView"
+        />
+    <TextView
+        android:id="@+id/dailyMatchesReminderTimeView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/thirty"
+        app:layout_constraintTop_toBottomOf="@+id/settingsIdView"
+        />
+
+    <TextView
+        android:id="@+id/maximumDistanceSearchView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/thirty"
+        app:layout_constraintTop_toBottomOf="@+id/dailyMatchesReminderTimeView"
+        />
+
+    <TextView
+        android:id="@+id/genderView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/thirty"
+        app:layout_constraintTop_toBottomOf="@+id/maximumDistanceSearchView"
+        />
+
+    <TextView
+        android:id="@+id/accountTypeView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/thirty"
+        app:layout_constraintTop_toBottomOf="@+id/genderView"
+        />
+
+    <TextView
+        android:id="@+id/interestedAgeRangeView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/thirty"
+        app:layout_constraintTop_toBottomOf="@+id/accountTypeView"
+        />
+
+
+    <EditText
+        android:id="@+id/dailyMatchesReminderTimeEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/interestedAgeRangeView"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Reminder Time"
+        />
+
+
+    <EditText
+        android:id="@+id/maximumDistanceSearchEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/dailyMatchesReminderTimeEdit"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Maximum Distance"
+        />
+
+
+    <EditText
+        android:id="@+id/genderEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/maximumDistanceSearchEdit"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Gender"
+        />
+
+
+    <EditText
+        android:id="@+id/accountTypeEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/genderEdit"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Account Type"
+        />
+
+
+    <EditText
+        android:id="@+id/interestedAgeRangeEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/accountTypeEdit"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Interested Age Range"
+        />
+
+    <Button
+        android:id="@+id/updateSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/interestedAgeRangeEdit"
+        android:hint="Update Settings"
+        />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
