@@ -52,12 +52,14 @@ public class Main3Activity<viewPager> extends AppCompatActivity {
             Adapter adapter = new Adapter(getSupportFragmentManager());
             ProfileFragment profile = new ProfileFragment();
             SettingsFragment settings = new SettingsFragment();
+            MatchesFragment matches = new MatchesFragment();
             adapter.addFragment(profile, "Profile");
             Intent intent = getIntent();
             Bundle b = intent.getExtras();
             profile.setArguments(b);
             settings.setArguments(b);
-            adapter.addFragment(new MatchesFragment(), "Matches");
+            matches.setArguments(b);
+            adapter.addFragment(matches, "Matches");
             adapter.addFragment(settings, "Settings");
             viewPager.setAdapter(adapter);
         }

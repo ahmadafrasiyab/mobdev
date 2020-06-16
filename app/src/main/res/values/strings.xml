@@ -17,5 +17,15 @@
     <string name="item_desc">my description</string>
     <string name="appbar_scrolling_view_behavior">\"\"</string>
     <string name="app_name">Dating App</string>
+    <string name="enable_location">Enable Location</string>
+    <string name="location_message">Your Locations Settings is set to \'Off\'. Please Enable Location to use this app</string>
+    <string name="location_settings">Location Settings</string>
+    <string name="location_cancel">Cancel</string>
+    <string name="pause">Pause</string>
+    <string name="resume">Resume</string>
+    <string name="network_provider_started_running">Network provider started running</string>
+
+
+
 </resources>
 

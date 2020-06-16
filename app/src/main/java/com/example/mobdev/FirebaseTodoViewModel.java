@@ -26,12 +26,6 @@ public class FirebaseTodoViewModel {
                         for (DocumentSnapshot todoSnapshot : querySnapshot.getDocuments()) {
                             TodoItem item = todoSnapshot.toObject(TodoItem.class);
                             assert item != null;
-                            item.uid = todoSnapshot.getId();
-                            item.name = todoSnapshot.get("name").toString();
-                            item.imageUrl = todoSnapshot.get("imageUrl").toString();
-                            item.lat = todoSnapshot.get("lat").toString();
-                            item.longitude = todoSnapshot.get("longitude").toString();
-                            item.liked = todoSnapshot.getBoolean("liked");
                             todoItems.add(item);
                         }
                         responseCallback.accept(todoItems);
@@ -49,4 +43,3 @@ public class FirebaseTodoViewModel {
         todoModel.clear();
     }
 }
-

@@ -37,7 +37,38 @@ public class TodoItem {
         return uid;
     }
 
-    public void setLike(boolean b) {
+
+    public String getLongitude() {
+        return longitude;
+    }
+
+    public String getLat() {
+        return lat;
+    }
+
+    public void setUid(String uid) {
+        this.uid = uid;
+    }
+
+    public void setName(String name) {
+        this.name = name ;
+    }
+
+    public void setLiked(boolean b) {
         this.liked = b;
     }
+
+    public void setLat(String lat) {
+        this.lat = lat;
+    }
+
+    public void setLongitude(String longitude) {
+        this.longitude = longitude;
+    }
+
+    public void setImageUrl(String imageUrl) {
+        this.imageUrl = imageUrl;
+    }
+
+
 }

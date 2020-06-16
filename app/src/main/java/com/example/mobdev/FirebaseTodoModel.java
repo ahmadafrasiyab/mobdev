@@ -33,17 +33,21 @@ public class FirebaseTodoModel {
                     if (e != null) {
                         dataErrorCallback.accept(e);
                     }
-
                     dataChangedCallback.accept(queryDocumentSnapshots);
                 });
         listeners.add(listener);
     }
 
     public void updateTodoItemById(TodoItem item) {
-        DocumentReference todoItemRef = db.collection("matches").document(item.uid);
-//        Map<String, Object> data = new HashMap<>();
-//        data.put(todoItemRef.getId(), item);
-        todoItemRef.set(item);
+        DocumentReference todoItemRef = db.collection("matches").document(item.getUid());
+        Map<String, Object> data = new HashMap<>();
+        data.put("name", item.getName());
+        data.put("imageUrl", item.getImageUrl());
+        data.put("lat", item.getLat());
+        data.put("longitude", item.getLongitude());
+        data.put("uid", item.getUid());
+        data.put("liked", item.getLiked());
+        todoItemRef.update(data);
     }
 
     public void clear() {
