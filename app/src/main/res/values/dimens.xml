@@ -34,7 +34,11 @@
     <dimen name="textViewName_padding">25dp</dimen>
     <dimen name="textViewAge_padding">25dp</dimen>
     <dimen name="topMarginSettingsId">100dp</dimen>
+    <dimen name="abs_x">246dp</dimen>
     <dimen name="testValue">70dp</dimen>
+    <dimen name="margin_end">16dp</dimen>
+    <dimen name="button_margin_top">24dp</dimen>
+    <dimen name="button_margin_left">20dp</dimen>
     <item name="horizontalButton" type="dimen" format="float">0.50</item>
     <item name="verticalButton" type="dimen" format="float">0.95</item>
     <item name="titleVertical" type="dimen" format="float">0.05</item>

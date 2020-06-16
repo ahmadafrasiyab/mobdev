@@ -107,21 +107,23 @@
         android:id="@+id/interestedAgeRangeEdit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/accountTypeEdit"
-        android:ems="10"
+        android:layout_marginEnd="@dimen/margin_end"
+        android:ems="8"
+        android:hint="Age Range"
         android:inputType="text"
-        android:hint="Interested Age Range"
-        />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/interestedAgeRangeView" />
 
     <Button
         android:id="@+id/updateSettings"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/interestedAgeRangeEdit"
+        android:layout_marginTop="@dimen/button_margin_top"
+        android:layout_marginLeft="@dimen/button_margin_left"
         android:hint="Update Settings"
-        />
-
-
+        app:layout_constraintLeft_toRightOf="@id/genderEdit"
+        app:layout_constraintTop_toBottomOf="@+id/interestedAgeRangeEdit"
+        tools:layout_editor_absoluteX="@dimen/abs_x"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
