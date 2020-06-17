@@ -24,7 +24,27 @@
     <string name="pause">Pause</string>
     <string name="resume">Resume</string>
     <string name="network_provider_started_running">Network provider started running</string>
-
+    <string name="profilename">Profile</string>
+    <string name="matches_name">Matches</string>
+    <string name="settings_name">Settings</string>
+    <string name="Profile">Profile</string>
+    <string name="Matches">Matches</string>
+    <string name="Settings">Settings</string>
+    <string name="date_picker">date picker</string>
+    <string name="not_18">Not 18</string>
+    <string name="cannot_be_empty">Name cannot be empty</string>
+    <string name="invalid_email">invalid email</string>
+    <string name="age_cannot_be_empty">age cannot be empty</string>
+    <string name="description_cannot_be_empty">description cannot be empty</string>
+    <string name="occupation_cannot_be_empty">occupation cannot be empty</string>
+    <string name="datofbirth_cannot_be_empty">dateOfBirth cannot be empty</string>
+    <string name="you_liked">You liked\u0020 </string>
+    <string name="Name1">Name: </string>
+    <string name="Age1">Age: </string>
+    <string name="Email1">Email: </string>
+    <string name="Description1">Description: </string>
+    <string name="Occupation1">Occupation: </string>
+    <string name="Dateofbirth1">Date Of Birth: </string>
 
 
 </resources>

@@ -34,9 +34,9 @@ public class Main3Activity<viewPager> extends AppCompatActivity {
         ViewPager viewPager = (ViewPager) findViewById(R.id.viewpager);
         setupViewPager(viewPager);
         TabLayout tabs = findViewById(R.id.tabs);
-        tabs.addTab(tabs.newTab().setText("Profile"));
-        tabs.addTab(tabs.newTab().setText("Matches"));
-        tabs.addTab(tabs.newTab().setText("Settings"));
+        tabs.addTab(tabs.newTab().setText(R.string.Profile));
+        tabs.addTab(tabs.newTab().setText(R.string.Matches));
+        tabs.addTab(tabs.newTab().setText(R.string.Settings));
         tabs.setupWithViewPager(viewPager);
     }
 
@@ -53,14 +53,14 @@ public class Main3Activity<viewPager> extends AppCompatActivity {
             ProfileFragment profile = new ProfileFragment();
             SettingsFragment settings = new SettingsFragment();
             MatchesFragment matches = new MatchesFragment();
-            adapter.addFragment(profile, "Profile");
+            adapter.addFragment(profile, getString(R.string.profilename));
             Intent intent = getIntent();
             Bundle b = intent.getExtras();
             profile.setArguments(b);
             settings.setArguments(b);
             matches.setArguments(b);
-            adapter.addFragment(matches, "Matches");
-            adapter.addFragment(settings, "Settings");
+            adapter.addFragment(matches, getString(R.string.matches_name));
+            adapter.addFragment(settings, getString(R.string.settings_name));
             viewPager.setAdapter(adapter);
         }
 

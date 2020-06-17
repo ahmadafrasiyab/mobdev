@@ -234,7 +234,7 @@ public class MatchesFragment extends Fragment {
             holder.button.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                        Toast.makeText(v.getContext(), "You liked " + holder.name.getText(), Toast.LENGTH_SHORT).show();
+                        Toast.makeText(v.getContext(), getString(R.string.you_liked) + holder.name.getText(), Toast.LENGTH_SHORT).show();
                          TodoItem todoToUpdate = todoItems.get(position);
                          todoToUpdate.setLiked(!todoToUpdate.getLiked());
                          vm.updateTodoItem(todoToUpdate);
